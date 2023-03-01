@@ -1,0 +1,26 @@
+preply
+├── README.md
+├── analysis
+├── seeds
+│   └── attr_source.csv
+├── dbt_project.yml
+├── macros
+│   └── example_macro.sql
+├── models
+│   ├── marts
+│   │   └── finance
+│   │   │   └── payment.sql
+│   │   │
+│   │   └── marketing
+│   │       └── agg_growth_V2.sql
+│   └── staging
+│       ├── marketing
+│       │   ├── stg_session.sql
+│       │   └── stg_campaign.sql
+│       └── shared
+│           ├── stg_student.yml
+│           └── stg_tutor.yml
+├── packages.yml
+├── snapshots
+└── tests
+    └── example_test.sql
